@@ -1,0 +1,14 @@
+"Fix bug scanner dan tambah custom exception"
+1. Menambahkan Exception
+2. Menambahkan penggunaan Try dan Catch
+3. Menambahkan Custom Exception dan penggunaan throw
+
+  Penggunaan Exception java.util.InputMismatchException: Mengamankan apabila ada yang memasukan input berupa huruf (tidak sesuai dengan perintah) akan terjadi error
+  Penggunaan Exception pada TargetMatiException: Mengamankan aturan game agar pemain tidak bisa menyerang monster yang statusnya sudah [TEWAS]
+  Penggunaan Try dan Catch untuk memvalidasi input yang di masukkan dan catch akan memberikan pesan berupa perigatan error
+  Penggunaan Costume Exception pada SeranganTidakValidException: Memastikan pertarungan tetap sesuai batas mekanisme game dengan memasukan keuatan serangan dengan rentang (10-100) saja yang apabila memasukakan serangan lebih dari 100 ataupun kurang dari 10 akan dianggap tidak valid.
+  <img width="663" height="359" alt="image" src="https://github.com/user-attachments/assets/80f56ac4-d29c-4bf4-b310-410b1a93b074" />
+  <img width="792" height="582" alt="image" src="https://github.com/user-attachments/assets/643c53dc-f852-4016-a424-a328ae95dba5" />
+  <img width="869" height="303" alt="image" src="https://github.com/user-attachments/assets/dfad34e7-cf4e-445c-9ef6-b2c5ad254d26" />
+
+
